@@ -1,0 +1,8 @@
+.carregarImagens{
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+  width: 10px;
+}
+
+.carregarImagens img{width: 100x; height: 10px;}

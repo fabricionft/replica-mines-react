@@ -1,0 +1,72 @@
+.bet{
+  display: flex;
+  justify-content: space-evenly;
+  width: 300px;
+  background-color: #0267A5;
+  height: 50px;
+  border-radius: 20px;
+  margin-right: 20px;
+  border: 1px solid rgb(39, 39, 39);
+  position: relative;
+}
+
+.valorBet{
+  width: 145px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.valorBet p{
+  width: 142px;
+  font-size: 13px;
+  text-align: center;
+  margin: 0;
+  color: #fff;
+}
+
+.valorBet input{
+  width: 142px;
+  height: 22px;
+  background: #0c4c84;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  color: #fff;
+}
+
+.botoesBet{
+  width: 130px;
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+}
+
+.btnBet{
+  background-color: #0267A5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  margin: 0;
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgb(39, 39, 39);
+  border-radius: 50%;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1055px){
+  .bet{
+    width: 300px;
+    margin: 10px 0 10px 0;
+  }
+}
+
+@media screen and (max-width: 330px){
+  .bet{
+    height: auto;
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,47 @@
+.valoresPredefinidos{
+  position: absolute;
+  width: 300px;
+  background: #032E49;
+  bottom: 45px;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  z-index: 2;
+}
+
+.margemValoresPredefinidos{
+  width: 275px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.valoresPredefinidos p{
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  margin: 7.5px 0;
+}
+
+.btnValoresPredefinidos{
+  width: 133px;
+  height: 26px;
+  font-size: 12px;
+  background-color: #094164;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.selecionado{
+  background-color: #0267A5;
+}
+
+@media screen and (max-width: 330px){
+  .valoresPredefinidos{
+    width: 100%;
+    background-color: red;
+  }
+}

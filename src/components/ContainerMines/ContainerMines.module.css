@@ -1,0 +1,19 @@
+.containerMines{
+  width: 415px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1055px){
+  .containerMines{
+    height: calc(100vh - 200px);
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .containerMines{
+    width: 90%;
+  }
+}

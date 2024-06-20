@@ -1,0 +1,62 @@
+.containerPrincipal{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-image: linear-gradient(to right, #0484cc, #0454dc);
+}
+
+.seletores{
+  background-color: #0c4c84;
+  width: 100%;
+  height: 18px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 20px;
+  padding: 2px 0;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.valores{
+  width: 100px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFC107;
+  border-radius: 20px;
+  font-size: 14px;
+  color: #000;
+}
+
+hr{
+  bottom: -17.5px;
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  background-color: #0c4c84;
+  border: none;
+}
+
+
+/*Botões*/
+.botoes{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 68px;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, #045494, #04349c);
+}
+
+@media screen and (max-width: 1055px){
+  .botoes{
+    height: auto;
+    flex-direction: column-reverse;
+  }
+}
